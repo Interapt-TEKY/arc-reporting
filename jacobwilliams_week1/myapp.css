@@ -1,0 +1,93 @@
+ul {
+    border: 1px solid white;
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    justify-content: space-around;
+    display: flex;
+}
+li#pic {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    padding-left: 20px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+li#notpic {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+li a {
+    text-align: center;
+    display: block;
+    color: white;
+}
+table {
+    border: 1px solid white;
+    width: 100%;
+    
+}
+th {
+    font-family: 'Permanent Marker', cursive;
+    border: 1px solid white;
+    font-size: 30px;
+    text-align: center;
+}
+td {
+    border: 1px solid white;
+}
+tr {
+    text-align: center;
+}
+li a:hover {
+    background-color: black;
+}
+img.main {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100;
+}
+img.topleft {
+    display: block;
+    margin: 0px;
+    width: 50px;
+    margin-right: 20px;
+}
+body {
+    color: white;
+     background-image: url(images/background.jpg);
+    background-color: black;
+    background-position: bottom;
+    background-repeat: no-repeat;
+   background-size: contain;
+    margin: 0;
+}
+img#rocket {
+ transform: rotate(90deg);
+ height: 100px;
+width: 50px;
+    margin: 100px 0px 0px 49%;
+}
+div#banner{
+	width: 100%;
+	height: 300px;
+	margin: 0px auto;
+	background-color: #000;
+	background-image: url(images/planet1.png), url(images/star2.png);
+    background-size: 150px 150px, 500px 500px;
+	background-position: 50px 50px, 0px 0px;
+	background-repeat: no-repeat, repeat-x, repeat-x;
+	animation: animate-background linear 50s infinite;
+}
+@keyframes animate-background {
+	from { background-position: 120% 70px, 0px 0px, 0px 0px;  } 
+	to { background-position: -20% 70px, -500px 0px, -500px 0px; 
+    }
+}

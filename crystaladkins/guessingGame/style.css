@@ -1,0 +1,79 @@
+body {
+    background-image: url(images/darkBg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+}
+h2, h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+
+#holdChances {
+    text-align: center;
+    font-size: 30px;
+    color: deepskyblue;
+}
+
+#guessDiv1{
+    border: 1px solid black; 
+    margin: 10px; 
+    border-radius: 8px;
+    height: 50%; 
+    color: black;
+    font-size: 90px;
+    text-align: center;
+
+}
+
+#guessDiv2{
+    border: 1px solid black; 
+    margin: 10px; 
+    border-radius: 8px;
+    height: 50%; 
+    color: black;
+    font-size: 90px;
+    text-align: center;
+
+}
+
+#guessDiv3{
+    border: 1px solid black; 
+    margin: 10px; 
+    border-radius: 8px;
+    height: 50%; 
+    color: black;
+    font-size: 90px;
+    text-align: center;
+
+}
+
+#chances {
+    font-size: 20px;
+}
+#startGameBtn {
+    height: 60%;
+}
+
+.main{
+    background-color: slategrey;
+
+}
+
+.notInSequence{
+    background-color: red;
+    
+}
+
+.inSequence {
+    background-color: yellow;
+  
+}
+
+.correct {
+    background-color: green;
+
+}

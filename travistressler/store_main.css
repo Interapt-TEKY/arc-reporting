@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Comic+Sans');
+
+body {
+  background-size : cover;
+  background-image : url("images/background.jpg");
+  background-repeat : no-repeat;
+  background-attachment : fixed;
+  
+}
+
+.nav {
+  background-color : lightyellow;
+  width : 100%;
+  float : left;
+}
+
+li {
+  display : inline;
+  float : left;
+  margin-left : 100px;
+  margin-top : 8px;
+  font-size : 20px;
+  font-family : Comic Sans MS;
+  font-weight : bold;
+  text-decoration : underline;
+  
+  
+}
+
+.banner {
+  height : 500px;
+  width : 75%;
+  float : left;
+  margin-top : 20px;
+  opacity : 0.85;
+  max-width : 75%;
+  border-radius : 30px;
+}
+
+.title {
+  height : 50px;
+  width : 80x;
+  float : left;
+  padding-left : 15px;
+  padding-top : 10px;
+}
+
+.border {
+  border-style : solid;
+  color : black;
+  border : 2px;
+}
+
+.title_words {
+  float : left;
+  font-family : Comic Sans MS;
+  padding-left : 20px;
+}
+
+li:hover {
+  background-color : lightblue;
+}
+
+.feature {
+  float : left;
+  width : 90%;
+  margin-left : 15px;
+  margin-top : 20px;
+  max-width : 90%;
+  opacity : 0.85;
+  border-radius : 30px;
+}
+
+.feature_heading {
+  color :  black;
+  font-weight : bold;
+  font-family : Comic Sans MS;
+  text-align : center;
+  text-decoration : underline;
+  
+
+}
+
+.nav2 {
+  background-color : lightyellow;
+  width : 100%;
+  float : left;
+  margin-top : 50px;
+  height : 40px;
+  color : black;
+  font-family : Comic Sans MS;
+  font-weight : bold;
+  font-decoration : underline;
+  font-size : 15px;
+  opacity : 0.85;
+}
+
+.products {
+  width : 250px;
+  height : 250px;
+  opacity : 0.85;
+  border-radius : 30px;
+}
+
+.product_words {
+  color : white;
+  font-family : Comic Sans MS;
+  font-weight : bold;
+  font-size : 20px;
+  border : 5px;
+  border-color : black;
+  border-style : solid;
+  background : darkblue;
+  opacity : 0.85;
+  text-align: center;
+  border-radius : 30px;
+  
+}
+
+.product_words2 {
+  color : white;
+  font-family : Comic Sans MS;
+  font-weight : bold;
+  font-size : 30px;
+  border : 5px;
+  border-color : black;
+  border-style : solid;
+  background : darkblue;
+  opacity : 0.85;
+  text-align: center;
+  border-radius : 30px;
+}
+
+.product_words3 {
+  width : 18%;
+  max-width : 18%;
+  color : white;
+  font-family : Comic Sans MS;
+  font-weight : bold;
+  float : left;
+  margin-left : 5%;
+  font-size : 20px;
+  text-align : center;
+  border : 5px;
+  border-color : black;
+  border-style : solid;
+  background : darkblue;
+  opacity : 0.85;
+  margin-top : 1%;
+}
+
+.product_words4 {
+  width : 18%;
+  max-width : 18%;
+  color : white;
+  font-family : Comic Sans MS;
+  font-weight : bold;
+  float : left;
+  margin-left : 4%;
+  padding-right : 1%;
+  font-size : 20px;
+  text-align : center;
+  border : 5px;
+  border-color : black;
+  border-style : solid;
+  background : darkblue;
+  opacity : 0.85;
+  margin-top : 1%;
+}
+
+a:link {
+  color : black;
+}
+
+a:visited {
+  color : black;
+}
+
+a:hover {
+  color : dodgerblue;
+}
+
+.table {
+  padding-top : 20px;
+  width : 100%;
+}
+
+.feature_table {
+  width: 40%;
+
+}
+
+.footer {
+  height : 50px;
+  float : left;
+  padding-left : 15px;
+  padding-top : 10px;
+  
+}
+
+.scroll {
+  overflow : scroll;
+  width : 100%;
+}

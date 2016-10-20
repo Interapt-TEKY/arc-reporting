@@ -1,0 +1,110 @@
+body {
+    background-image: url(images/paperBackground.jpg);
+    color: #464339;
+    background-size: 100% auto;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+.box {
+    font-size: 40px;
+    font-family: 'Schoolbell', cursive;
+}
+
+.center {
+    text-align: center;
+}
+
+.a1 {
+    height: 10%;
+    border-right: 2px solid #464339;
+    border-bottom: 2px solid #464339;
+    text-align: center;
+
+}
+
+.b1 {
+    height: 10%;
+    border-right: 2px solid #464339;
+    border-bottom: 2px solid #464339;
+    text-align: center;
+
+}
+
+.c1 {
+    height: 10%;
+    border-bottom: 2px solid #464339;
+    text-align: center;
+
+}
+
+.a2 {
+    height: 10%;
+    border-right: 2px solid #464339;
+    border-bottom: 2px solid #464339;
+    text-align: center;
+
+}
+
+.b2 {
+    height: 10%;
+    border-right: 2px solid #464339;
+    border-bottom: 2px solid #464339;
+    text-align: center;
+
+}
+
+.c2 {
+    height: 10%;
+    border-bottom: 2px solid #464339;
+    text-align: center;
+
+}
+
+.a3 {
+    height: 10%;
+    border-right: 2px solid #464339;
+    text-align: center;
+    
+
+}
+
+.b3 {
+    height: 10%;
+    border-right: 2px solid #464339;
+    text-align: center;
+
+}
+
+.c3 {
+    height: 10%;
+    text-align: center;
+    
+}
+
+#title {
+    text-align: center;
+    line-height: 2.5em;
+}
+
+
+
+#oScore {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#xScore {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+
+#turn {
+    font-size: 35px;
+}
+
+#gameBoard{
+    padding-left: 8em;
+}

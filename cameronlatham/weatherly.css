@@ -1,0 +1,46 @@
+body{
+    background-image: url(backimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.cardFormat{
+    height: 500px;
+    background-size: cover; 
+    background-repeat:no-repeat;
+    /*background: linear-gradient(0,0,30); needs work*/
+    margin: 20px; 
+    border-radius:4px;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white,  
+    -1px 0 0 white,
+    1px 0 0 white,
+    0 1px 0 white,
+    0 -1px 0 white;
+}
+
+.locationStyle{
+    text-align:center;
+    margin: 28px;
+    font-size: 18pt;
+}
+
+.currentTemp{
+    font-size: 26pt;
+    text-align: center;
+    margin: 5px;
+}
+
+.weatherStatus{
+    font-size: 20pt;
+    text-align: left;
+    margin: 30px;
+}
+
+.socialButton{
+    right:100px;
+    position:absolute;
+}

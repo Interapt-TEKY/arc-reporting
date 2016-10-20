@@ -1,0 +1,7 @@
+.defaultRed {
+    background-color:red;
+    opacity:.6
+};
+.correctAnswer {
+    background-color:green;
+}

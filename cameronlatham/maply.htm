@@ -1,0 +1,35 @@
+<html>
+
+<head>
+<!-- Link to jquery-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="maply.css">
+<script type="text/javascript" src="maply.js"></script>
+<title>Maply</title>
+</head>
+
+<body>
+
+<div>
+            <label><input type="text" name="zipCodeEntry" id="zipCodeEntry" placeholder="Zip code or city, state" /></label>
+            <button id="addZip" style="margin: 10px"><span class="glyphicon-plus"></span></button>
+</div>
+
+<div class="container" id="contain">
+    <div class="row" id="mapRow">
+    </div>
+</div>
+ <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcRsOmkiYMkUUq3GpAkQIPNR--A6aU6Hw&callback=embedMap"
+    async defer></script>
+</body>
+</html>

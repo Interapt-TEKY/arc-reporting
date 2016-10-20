@@ -1,0 +1,105 @@
+<html>
+
+<head>
+    <title>Simple Map</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #map {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <input id="searchfield" type="text" class="form-control" placeholder="Search">
+
+    <button id="submitbtn" onclick="getData()" type="submit" class="btn btn-default">Submit</button>
+    <button id="cleartbtn" onclick="removeData()" type="submit" class="btn btn-default">Clear Points</button>
+    </form>
+    <div>
+    <h1 id="cityNameText"></h1>
+    <div style="height:200px; width:400px" id="map"></div>
+    <div style="height:200px; width:400px" id="map2"></div>
+    <div style="height:200px; width:400px" id="map3"></div>
+    <div style="height:200px; width:400px" id="map4"></div>
+    <div style="height:200px; width:400px" id="map5"></div>
+    
+    <script>
+      var map;
+      function initMap() {
+  var myLatLng = {lat: -25.363, lng: 131.044};
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 4,
+    center: myLatLng
+  });
+
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'Hello World!'
+  });
+}
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpAqNQJkoJxOvC-uzOQ_D5gLcrDgt00z0&callback=initMap" async
+        defer></script>
+
+    <script>
+
+        function getData() {
+            var zip = document.getElementById('searchfield').value;
+            console.log(zip);
+            var fixedzip= parseInt(zip);
+            console.log(fixedzip);
+            var googleSend = "https://maps.googleapis.com/maps/api/geocode/json?address=" + fixedzip + "&key=AIzaSyBAne7GCSgxzPKdDODXJcXxha9DUuJv4lM";
+    console.log(googleSend);
+    $.ajax({
+        url: googleSend,
+        success: function (result) {
+            console.log(result.results[0].geometry.location.lat);
+            var lata = (result.results[0].geometry.location.lat);
+            console.log(result.results[0].geometry.location.lng);
+            var long = (result.results[0].geometry.location.lng);
+            var city = (result.results[0].address_components[1].short_name);
+            var state = (result.results[0].address_components[3].short_name)
+             $("#cityNameText").text(city+", "+state);
+            var myLatLng={lat:lata, lng:long};
+            var mapOptions = {
+            zoom: 4,
+                center: myLatLng
+                    }
+                var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+                var marker = new google.maps.Marker({
+                position: myLatLng,
+                title:"Hello World!"
+                    });
+
+// To add the marker to the map, call setMap();
+marker.setMap(map); 
+            
+
+        }
+    });
+        };
+        </script>
+        <script>
+            function removeData() {
+                window.location.reload();
+            };
+            </script>
+
+            
+</body>
+
+</html>

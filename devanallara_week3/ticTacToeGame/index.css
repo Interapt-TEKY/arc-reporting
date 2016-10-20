@@ -1,0 +1,31 @@
+.square{
+    width:100px;
+    height:100px;
+}
+
+.v{
+    border-left:1px solid #000;
+    border-right:1px solid #000;
+}
+
+.h{
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+}
+
+.x {
+    background-image: url(http://www.clipartbest.com/cliparts/4cb/Ez7/4cbEz7zcg.jpeg);
+    background-size: 100px 100px;
+    pointer-events: none;
+ 
+}
+.o {
+    background-image: url(http://www.drodd.com/images15/letter-o25.png);
+    background-size:100px 100px;
+    pointer-events:none;
+}
+
+.noclick {
+    pointer-events: none;
+
+}

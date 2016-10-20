@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <!-- Link to jquery-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="guessingGame.css">
+
+    <script type="text/javascript" src="guessingGame.js"></script>
+    <title>Guessing Game</title>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</head>
+
+<body>
+
+    <span id="counterSpan"></span>
+    <div class="row">
+        <fieldset>
+            <div class="col-md-3" id="div1" style= "background-color:gray; height:200px; margin:3px"><label>What is your guess
+            <input type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="1" id="tbxGuess1" placeholder="from 0 to 9"/></label></div>
+
+            <div class="col-md-3" id="div2" style= "background-color:gray; height:200px; margin:3px"><label>What is your guess
+            <input type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="1" id="tbxGuess2" placeholder="from 0 to 9"/></label></div>
+
+            <div class="col-md-3" id="div3" style= "background-color:gray; height:200px; margin:3px"><label>What is your guess
+            <input type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="1" id="tbxGuess3" placeholder="from 0 to 9"/></label></div>
+            </div>
+            <br>
+            <button id="btnGuess">Guess</button>
+            <button id="btnReset">Reset</button>
+        </fieldset>
+    </div>
+    <hr>
+    <p>Guess a number between 0 and 9 for each box</p>
+    <p>If the number is correct, the box will turn green</p>
+    <p>If the number matches the correct number for one of the boxes but is not in the correct position, the box will turn yellow</p>
+    <p>If the number is incorrect for all of the boxes, the box will turn red</p>
+    <p>You have 10 tries to guess the numbers that will correctly match the boxes</p>
+    <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>
+
+</body>
+
+
+</html>

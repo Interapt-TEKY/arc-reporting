@@ -1,0 +1,62 @@
+body {
+ background-image: url(http://www.rickyneath.com/backgrounds/8.jpg);
+ background-size: 100% 100%;
+ font-family: 'Cabin Sketch', cursive;
+}
+#weatherly {
+    font-size: 60px;
+}
+#socialbtn {
+    margin: 0px 20px;
+    
+}
+.btn {
+    font-size: 40px;
+}
+#areaName {
+    font-size: 30px;
+}
+#rmv{
+    background-image: url(https://cdn.tutsplus.com/psd/uploads/legacy/366_Grungy_Web/02b.png);
+    background-repeat: repeat;
+ background-size: cover;
+ border-style: inset;
+     height: 425px; 
+     width: 300px; 
+     margin-top: 80px;
+      margin-right: 80px; 
+      border-radius: 10px;
+}
+#line {
+    background-color: black;
+    color: black;
+}
+
+
+
+
+.flip {
+    backface-visibility: hidden;
+    border: 1px solid black;
+    height: 150px;
+    position: absolute;
+    transform-origin: 50% 50% 0px;
+    transition: all 3s;
+    width: 300px;    
+}
+
+#templateDiv {
+    transform: rotateY( 0deg );
+}
+
+#side-2 {
+    transform: rotateY( 180deg );   
+}
+
+.flip-side-1 {    
+    transform: rotateY( 0deg ) !important;
+}
+
+.flip-side-2 {
+    transform: rotateY( 180deg ) !important;
+}

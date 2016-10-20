@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+    background-image: url(images/blurredCity.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    color: black;
+}
+
+h3 {
+    text-align: center;
+    color: darkgray;
+}
+div#mainCard {
+    background-color: deepskyblue;
+    background-image: url(images/blurredGrey.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 10px; 
+    border-radius: 10px; 
+    border: 1px solid black; 
+    text-align:center;
+    }

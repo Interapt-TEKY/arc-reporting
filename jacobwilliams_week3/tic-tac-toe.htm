@@ -1,0 +1,76 @@
+<html>
+<!-- have to have jquery -->
+
+<head>
+   <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script> <!-- Jquery must be on top -->
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+       crossorigin="anonymous">
+   <!-- bootstrap-->
+
+   <!-- Optional theme -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+       crossorigin="anonymous">
+
+   <!-- Latest compiled and minified JavaScript -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+       crossorigin="anonymous"></script>
+   <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<link rel="stylesheet" href="tic-tac-toe.css">
+<script type="text/javascript" src="tic-tac-toe.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+</head>
+
+<body>
+<div id="top" class="container">
+<div class="row">       
+<div class="col-md-4" id="X">PLAYER X WINS</div>
+
+<div class="col-md-4" style="font-size: 30px" id="Turn"><strong>TIC-TAC-TOE</strong></div>
+
+<div class="col-md-4" id="O">PLAYER O WINS</div>
+
+</div>
+<div class="row">  
+<div class="col-md-4" id="xWin"></div>
+<div class="col-md-4"><input id="newGame" type="button" class="button" value="New Game"></div>
+<div class="col-md-4" id="oWin"></div>
+  </div>
+<div id="tableDiv">
+<table>
+  <tr>
+    <td id="0">
+      <button id="0b" style = "border-left: none; border-top: none; border-color: #d6d963; border-width: 10px"></button>
+      </td>
+    <td id="1">
+      <button id="1b" style = "border-top: none; border-color: #d6d963; border-width: 10px"></button>
+      </td>
+    <td id="2">
+      <button id="2b" style = "border-right: none; border-top: none; border-color: #d6d963; border-width: 10px"></button>
+      </td>
+  </tr>
+  <tr>
+    <td id="3"><button id="3b" style = "border-left: none; border-color: #d6d963; border-width: 10px"></button></td>
+    <td id="4"><button  id="4b" style="border-color: #d6d963; border-width: 10px"></button></td>
+    <td id="5"><button   id="5b" style = "border-right: none; border-color: #d6d963; border-width: 10px"></button></td>
+  </tr>
+  <tr>
+    <td id="6"><button   id="6b" style = "border-left: none; border-bottom: none; border-color: #d6d963; border-width: 10px"></button></td>
+    <td id="7"><button  id="7b" style = "border-bottom: none; border-color: #d6d963; border-width: 10px"></button></td>
+    <td id="8"><button  id="8b" style = "border-right: none; border-bottom: none; border-color: #d6d963; border-width: 10px"></button></td>
+  </tr>
+</table>
+</div>
+</div>
+<!-- AddToAny BEGIN -->
+                <div id = "share" class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                    <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                    <a class="a2a_button_facebook"></a>
+                    <a class="a2a_button_twitter"></a>
+                    <a class="a2a_button_google_plus"></a>
+                </div>
+                <script async src="https://static.addtoany.com/menu/page.js"></script>
+                <!-- AddToAny END -->
+</body>
+
+</html>

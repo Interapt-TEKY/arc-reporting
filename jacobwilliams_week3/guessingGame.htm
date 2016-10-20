@@ -1,0 +1,60 @@
+<html>
+<!-- have to have jquery -->
+
+<head>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <!-- Jquery must be on top -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!-- bootstrap-->
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="guessingGame.js"></script>
+    <link rel="stylesheet" href="guessingGame.css">
+    <link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="head" class="col-md-12">
+            <h1>GUESSING GAME</h1>
+        </div>
+<div id="head" class="col-md-12">
+            <h2>RULES</h2>
+        </div>
+       
+        <div id="rules" class="col-md-12">
+            <h3>You have 10 tries to get the combination correct! Each box is a number 1-9! If the guess is right then a green
+background will display! If the guess is right but is for a different box a yellow background will display! If the background is wrong and doesn't fit into any of the boxes a red background will display!</h3>
+        </div>
+        <div id="mid" class="row">
+         <div id = "guessLeft" class="col-md-12"><h4>GUESSES LEFT</h4><div id="guessesLeft" ><h2></h2></div><div> <button id="guess">GUESS</button></div><div> <button id="reset">RESET</button></div></div>
+        </div>
+
+        <div class="row">
+            <div id="col1" class="col-md-3"><input id="num1" type="text" maxlength="1" onkeypress="return isNumberKey(event)"></div>
+            <div id="col2" class="col-md-3"><input id="num2" type="text" maxlength="1" onkeypress="return isNumberKey(event)"></div>
+            <div id="col3" class="col-md-3"><input id="num3" type="text" maxlength="1" onkeypress="return isNumberKey(event)"></div>
+        </div>
+    </div>
+    <!-- AddToAny BEGIN -->
+    <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+        <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+        <a class="a2a_button_facebook"></a>
+        <a class="a2a_button_twitter"></a>
+        <a class="a2a_button_google_plus"></a>
+    </div>
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+    <!-- AddToAny END -->
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+body {
+    background-image: url(https://media.giphy.com/media/3o85xqoKSMCk25XQVG/giphy.gif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    color: black;
+}
+#offramp{
+    width: 130px;
+    position : absolute;
+    left: 0;
+    bottom: 0;
+    opacity : 0.50;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    justify-content: space-around;
+     display: flex;
+}
+li {
+    justify-content: space-around;
+    float: left;
+    display: flex;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111111;
+}

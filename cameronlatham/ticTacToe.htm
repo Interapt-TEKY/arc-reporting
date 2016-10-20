@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <!-- Link to jquery-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="ticTacToe.css">
+
+    <script type="text/javascript" src="ticTacToe.js"></script>
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="header">
+            <h1>Tic Tac Toe</h1>
+            <span id="turnPrompt">It is Player 1's turn</span>
+        </div>
+        <div class="board">
+            <div class="row">
+                <div class="col-md-3 cell" id="a"></div>
+                <div class="col-md-3 cell" id="b"></div>
+                <div class="col-md-3 cell" id="c"></div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-3 cell" id="d"></div>
+                <div class="col-md-3 cell" id="e"></div>
+                <div class="col-md-3 cell" id="f"></div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-3 cell" id="g"></div>
+                <div class="col-md-3 cell" id="h"></div>
+                <div class="col-md-3 cell" id="i"></div>
+
+            </div>
+
+
+        </div>
+        <br>
+        <span id="wins"></span>
+        <br>
+        <button id="btnReset">Reset</button>
+        <hr>
+        <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>
+    </div>
+</body>
+
+</html>

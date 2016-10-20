@@ -1,0 +1,33 @@
+
+body{
+	background-image: url("dining2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Oswald', sans-serif;
+}
+
+div#container {
+	text-align: center;
+	height:100%;
+	position: absolute;
+	overflow: visible;
+	display: block;
+	width: 100%;
+	left: 0px;
+}
+div#innerdiv {
+	padding: 20px;
+	background-color: #EA3F1A; 
+	border: 3px solid #FFF; 
+
+	overflow: auto; 
+
+	position: absolute; 
+	left: 50%; 
+
+	margin-left: -200px; 
+	width: 400px; 
+
+	height: 550px; 
+	top: 90px;
+}

@@ -1,0 +1,52 @@
+#newGame {
+  background: transparent;
+  border: none;
+
+}
+
+body {
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Permanent Marker', cursive;
+  background-image: url(http://www.fargeau.nl/site/images/backgrounds/chalkboard-background-2499.jpg);
+  background-size: 100% 100%;
+  color: #d6d963;
+}
+#x{
+font-size: 40px;
+}
+#o {
+font-size: 40px;
+}
+#xWin {
+  font-size: 25px;
+}
+#oWin {
+  font-size: 25px;
+}
+table {
+  margin-left:auto; 
+  margin-right:auto; 
+  width: 551px; 
+  user-select: none; 
+  margin-top: 20px;
+}
+td {
+  height: 100px;
+  
+  text-align: center;
+  font-size: 120px;
+}
+button {
+  height: 175px;
+  width: 200px;
+  background-color: transparent;
+  margin-right: 0px;
+
+  
+}
+#top {
+  margin-top: 20px;
+}
+
+

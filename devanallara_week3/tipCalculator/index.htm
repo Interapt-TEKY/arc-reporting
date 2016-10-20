@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css"/>
+    <script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "dc77aff2-5650-40e5-a02e-0bcfa091c293", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+</head>
+
+<body class="bg">
+    <div class="container">
+        <div class="row">
+            <div style=" box-shadow:10px 10px 5px black; margin-left:35%; margin-top:40px; border-radius:10px; color:black;background-color:white; opacity:.7; height:500px;" class="col-md-4">
+                <center>
+                    <h1>Tip Calculator!</h1>
+                </center>
+                <hr/>
+                <center>
+                    <p>How Much was your bill?</p>
+                </center>
+                <center>
+                    <p>$ <input maxlength="6" onkeypress="return isNumberKey(this);" id="priceBox" style="width:100px;" class="form-inline" id="ex1" type="text"></p>
+                </center>
+                <hr/>
+                <center>
+                    <p>How was the service?</p>
+                </center>
+                  <fieldset>
+   
+                   <center>  <select style="color:black" name="service" id="service">
+                        <option>Amazing! 30%</option>
+                        <option>Good 20%</option>
+                        <option selected="selected">Average 15%</option>
+                        <option>Poor 10%</option>
+                        <option>Terrible 5%</option>
+                        </select></center>
+                <hr/>
+
+               <center> <p>How many people are sharing the meal?</p><center>
+                  <form>
+  
+  <input type="number" id="numberofpeople" value="1" min="1" max="9">
+</form>
+                   <hr/>
+                   <center><p>Your Total Per Person Is:</p>
+                            <p id="price">$0</p>
+                           
+              <button style=" box-shadow:5px 5px 2px grey;" id="submitButton" type="button" class="btn btn-default">Calulate your Tip!</button>
+                <button style=" box-shadow:5px 5px 2px grey" id="clearButton" type="button" class="btn btn-default">Clear Totals</button>
+
+
+            </div>
+        </div>
+    </div>
+
+
+<span class='st_sharethis_large' displayText='ShareThis'></span>
+<span class='st_facebook_large' displayText='Facebook'></span>
+<span class='st_twitter_large' displayText='Tweet'></span>
+<span class='st_linkedin_large' displayText='LinkedIn'></span>
+<span class='st_pinterest_large' displayText='Pinterest'></span>
+<span class='st_email_large' displayText='Email'></span>
+
+</body>
+
+
+</html>

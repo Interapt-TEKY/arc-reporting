@@ -1,0 +1,102 @@
+#body {
+ background-image:url(https://images.freecreatives.com/wp-content/uploads/2016/03/Beautiful-Aquarium-background-For-free.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#h1one {
+    font-family: 'Righteous', cursive; 
+    color: yellow; 
+    text-align: center; 
+    font-size: 60pt;
+    margin-top: 70px;
+}
+#div1 {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px dotted black; 
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#div3 {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px dotted black; 
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#table1 {
+    background-color: white; 
+    width: 60%; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+#cart {
+    position: fixed;
+	top: 0;
+	right: 0;
+	width: 300px;
+    background-color: lightgray;
+    border: 2px solid black
+}
+
+#shark {
+position: absolute;
+left: 100px;
+top: 200px;
+back-ground-color: lightgray;
+border: 2px solid black;
+display: none;
+}
+
+#div2 {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 200px;
+    padding-right: 20px;
+    color: yellow;
+    border: 2px solid yellow; 
+    background-color: rgba(255, 255, 255, 0.0);
+    text-shadow: 6px 6px black;
+}
+
+#a, a:hover, a:visited {
+    color: yellow;
+}
+
+.dropbtn {
+    background-color: yellow;
+    color: black !important;
+    padding: 16px;
+    font-size: 16px;
+}
+
+.dropdown {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+   padding-right: 20px;
+    color: yellow;
+    border: 2px solid yellow; 
+    background-color: rgba(0, 0, 0, 0.4);
+    text-shadow: 6px 6px 6px black;
+}
+
+.dropdown-content a {
+    color: yellow;
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

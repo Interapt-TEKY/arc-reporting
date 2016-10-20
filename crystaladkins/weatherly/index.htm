@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <title>Weatherly</title>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" type="text/javascript"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+        <!-- JS Sheet -->
+   <script type="text/javascript" src="weatherly.js"> </script>
+
+   <!-- CSS Stylesheet --> 
+   <link rel = "stylesheet" type = "text/css" href = "style.css" />
+
+   <!-- Google Font -->
+   <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+        
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Weather.ly</a>
+            </div>
+            <div class="pull-right"><iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2FCrystalJewel.github.io%2Fweatherly&layout=button_count&size=large&mobile_iframe=true&appId=181205201953692&width=84&height=28" width="84" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" ></iframe>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class=row>
+            <div class="col-md-4 col-md-push-4">
+                <input type="text" id="postalCode" placeholder="Zip code or City, State" />
+                <button class="btn btn-info" id="lookupWeatherForPostalCode">Lookup</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" id="cards">
+            <!-- this is the area that will hold my dynamic divs -->
+        </div>
+    </div>
+
+    <!--Now that I have the area for my divs, i still need a div template for it to pull from -->
+    <div id="templateCard" style="display: none">
+        <!--The style NONE means that this will stlll technically be on the page BUT it will be hidden -->
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 @@BGCLASS@@" id="mainCard"><button class="btn btn-danger btn-xs pull-right glyphicon glyphicon-minus" id="removeCard"></button>
+            <!-- This gives me my card outline with border with the city -->
+            <br/>
+            <br/>
+            <div class="row" style="text-align:center;">@@CURCTY@@</div>
+            <br/>
+            <br/>
+            <div class="row" style="height: 25%; text-align: center;"> @@CURTMP@@</div>
+            <!--This should be the large area that just holds my current temp -->
+            <br/>           
+            <br/>
+            <br/>           
+            <br/>
+            <br/>
+           
+            <div class="row" style="border-top: 2px solid black;">
+                <!-- the next three of these *should* give me the three sections that I need for following hours weather -->
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4" style="height: 14%; text-align:center; border-right: 1px solid black;">@@HIGHTEMP@@</div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4" style="height: 14%; text-align:center; border-right: 1px solid black;">@@LOWTEMP@@</div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4" style="height: 14%; text-align:center;">@@RAIN@@</div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>

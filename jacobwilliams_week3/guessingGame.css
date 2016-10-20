@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+     background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(grey));
+    background-image: -webkit-linear-gradient(top, black, grey);
+    background-image: -moz-linear-gradient(top, black, grey);
+    background-image: linear-gradient(to bottom, black, grey);
+    font-family: 'Yatra One', cursive;
+}
+#head {
+    text-shadow: -1px 0 grey, 0 5px grey, 5px 0 gray, 0 -1px grey;
+}
+input {
+    height: 100%;
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    border-style: none;
+    outline-color: white;
+    font-size: 50px;
+}
+#guessLeft {
+     background-color: transparent;
+        margin-top: 10px;
+}
+#mid{
+   margin-left: auto;
+   margin-right: auto;
+}
+#rules {
+    background-color: white;
+    color: black;
+ background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(grey));
+    background-image: -webkit-linear-gradient(top, black, grey);
+    background-image: -moz-linear-gradient(top, black, grey);
+    background-image: linear-gradient(to bottom, black, grey);
+}
+#col1 {
+   height: 250px;
+   background-color: white;
+   margin: 4%;
+   border-radius: 20px;
+   border-style: inset;
+   border-width: 10px;
+   border-color:black;
+}
+   #col2 {
+   height: 250px;
+   background-color: white;
+   margin: 4%;
+   border-radius: 20px;
+   border-style: inset;
+   border-width: 10px;
+   border-color:black;
+   }
+   #col3 {
+   height: 250px;
+   background-color: white;
+   margin: 4%;
+   border-radius: 20px;
+   border-style: inset;
+   border-width: 10px;
+   border-color:black;
+   }
+   #num1{
+       text-align: center;
+       color: black; 
+       font-size: 20em;
+   }
+   #num2{
+       text-align: center;
+       color: black;
+       font-size: 20em;
+   }
+   #num3{
+       text-align: center;
+       color: black;
+       font-size: 20em;
+   }
+   button {
+       background-color: black;
+       margin-top: 10px;
+   }

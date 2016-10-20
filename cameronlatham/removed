@@ -1,0 +1,66 @@
+<!--<div class="container">
+        <div class="row">
+            <div id="Clear" class="col-md-3 cardFormat" style="background-image: url(clear2.jpg);">
+                <div class="locationStyle">Paintsville, Ky</div>
+                <div class="currentTemp">80 &#8457;</div>
+                <div class="weatherStatus">Clear</div>
+                <div class="row">
+                <div class="col-md-4">Min: </div>  <div class="col-md-4">Rain: </div>  <div class="col-md-4">Max:</div>
+                <br/>
+                <div class="col-md-4">Low </div>  <div class="col-md-4">Percent </div>  <div class="col-md-4">High</div>
+                </div> 
+            </div>
+            <div id="Cloudy" class="col-md-3 cardFormat" style="background-image: url(cloudy2.jpeg)">
+                <div class="locationStyle">Paintsville, Ky</div>
+                <div class="currentTemp">80 &#8457;</div>
+                <div class="weatherStatus">Cloudy</div>
+                <div class="row">
+                <div class="col-md-4">Min: </div>  <div class="col-md-4">Rain: </div>  <div class="col-md-4">Max:</div>
+                <br/>
+                <div class="col-md-4">Low </div>  <div class="col-md-4">Percent </div>  <div class="col-md-4">High</div>
+                </div> 
+            </div>
+            <div id="Rain" class="col-md-3 cardFormat" style="background-image: url(rain2.jpg)">
+                <div class="locationStyle">Paintsville, Ky</div>
+                <div class="currentTemp">80 &#8457;</div>
+                <div class="weatherStatus">Rain</div>
+                <div class="row">
+                <div class="col-md-4">Min: </div>  <div class="col-md-4">Rain: </div>  <div class="col-md-4">Max:</div>
+                <br/>
+                <div class="col-md-4">Low </div>  <div class="col-md-4">Percent </div>  <div class="col-md-4">High</div>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div id="Storm" class="col-md-3 cardFormat" style="background-image: url(storm2.jpg)">
+                <div class="locationStyle">Paintsville, Ky</div>
+                <div class="currentTemp">80 &#8457;</div>
+                <div class="weatherStatus">Storm</div>
+                <div class="row">
+                <div class="col-md-4">Min: </div>  <div class="col-md-4">Rain: </div>  <div class="col-md-4">Max:</div>
+                <br/>
+                <div class="col-md-4">Low </div>  <div class="col-md-4">Percent </div>  <div class="col-md-4">High</div>
+                </div> 
+            </div>
+            <div id="Snow" class="col-md-3 cardFormat" style="background-image: url(snow2.jpeg)">
+                <div class="locationStyle">Paintsville, Ky</div>
+                <div class="currentTemp">80 &#8457;</div>
+                <div class="weatherStatus">Snow</div>
+                <div class="row">
+                <div class="col-md-4">Min: </div>  <div class="col-md-4">Rain: </div>  <div class="col-md-4">Max:</div>
+                <br/>
+                <div class="col-md-4">Low </div>  <div class="col-md-4">Percent </div>  <div class="col-md-4">High</div>
+                </div> 
+            </div>
+            <div id="Sleet" class="col-md-3 cardFormat" style="background-image: url(sleet2.jpg)">
+                <div class="locationStyle">Paintsville, Ky</div>
+                <div class="currentTemp">80 &#8457;</div>
+                <div class="weatherStatus">Sleet</div>
+                <div class="row">
+                <div class="col-md-4">Min: </div>  <div class="col-md-4">Rain: </div>  <div class="col-md-4">Max:</div>
+                <br/>
+                <div class="col-md-4">Low </div>  <div class="col-md-4">Percent </div>  <div class="col-md-4">High</div>
+                </div>
+            </div>
+        </div>-->

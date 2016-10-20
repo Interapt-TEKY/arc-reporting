@@ -1,0 +1,134 @@
+
+body {
+    background-color: lightblue;
+    background-image: url(images/backgroundimg.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+
+div#mainCard {
+    background-color: deepskyblue;
+    margin: 10px; 
+    border-radius: 10px; 
+    border: 1px solid black; 
+    text-align:center;
+    }
+
+
+.default{ 
+    background-color: deepskyblue;
+    background-image: url(images/clearday.jpg);
+    background-size: 100% 100%;
+}
+
+.clear-day {
+    background-image: url(images/clearday.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    color: white;
+    text-shadow: 2px 2px black;
+
+}
+
+.clear-night{
+    background-image: url(images/clearnight.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white; 
+
+}
+
+.rain {
+    background-image: url(images/rain.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px black;
+
+
+}
+
+.snow {
+    background-image: url(images/snow.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: black;
+    text-shadow: 1px 1px black;
+
+}
+
+.sleet {
+    background-image: url(images/sleet.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: black;
+    
+}
+   
+.wind {
+    background-image: url(images/windy.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+
+.fog {
+    background-image: url(images/fog.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.cloudy{
+    background-image: url(images/cloudyday.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px black;
+
+}
+
+.partly-cloudy-day{
+    background-image: url(images/partlycloudy.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.partly-cloudy-night{
+    background-image: url(images/partlycloudynight.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+
+.hail{
+    background-image: url(images/hail.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.thunderstorm{
+    background-image: url(images/thunderstorm.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+
+.tornado{
+    background-image: url(images/tornado.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+
+}

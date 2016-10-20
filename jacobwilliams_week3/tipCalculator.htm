@@ -1,0 +1,104 @@
+<html>
+
+
+<head>
+    <!-- have to have jquery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <!-- Jquery must be on top -->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!-- bootstrap-->
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+    <link rel="stylesheet" href="tipCalculator.css">
+    <script src="tipCalculator.js"></script>
+    <title>TIP CALCULATOR</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div id="main" class="col-md-4 col-md-offset-4" style="background-color: red; margin-top: 50px">
+                <div class="col-md-12" style="text-align: center;">
+                    <h1>TIP CALCULATOR</h1>
+                    <hr>
+                </div>
+                <div> <br><br>
+                    <div>
+                        <div class="col-md-12 ">How much was the bill?</div>
+                        $<input value="" onkeypress="return isNumberKey(event)" id="cost" maxlength="6" size="6" type="text"
+                            required>
+                        <br>
+                        <br>
+                        <div class="col-md-12">How was your service?</div>
+                        <div class="col-md-12">
+                            <select id="tipChoice" required>
+    <option disabled selected hidden>--Choose a tip amount--</option>
+    <br>
+    <option value="0.10">10% - Bad</option>
+    <option value="0.15">15% - Okay</option>
+    <option value="0.2">20% - Good</option>
+    <option value="0.3">30% - Perfect</option>
+  </select><br><br>
+                        </div>
+                        <div class="col-md-12">How many people are sharing the bill?</div>
+                        <div class="col-md-12"> <input id="ofPeople" type="number" min="1" max="9" value="1" required> </div>
+                        <div class="col-md-12">
+                            <br/>
+                            <br/>
+                            <div class="col-md-6 col-md-offset-3">
+                                <button id="calculate"><h3>CALCULATE<h3></button>
+                            </div>
+                            <div class="col-md-6 col-md-offset-3">
+                                <button id="reset"><h3>RESET<h3></button>
+                            </div>
+                            <br>
+                            <br>
+                        </div>
+
+                        <div style="text-align: center" id="tipamt" class="col-md-6">
+                            <h4>TIP AMOUNT</h4><br>
+
+
+                        </div>
+                         <div style="text-align: center" id="totAMY" class="col-md-6">
+                            <h4>TOTAL AMOUNT</h4><br>
+                        </div>
+
+
+                        <div style="text-align: center" class="col-md-6">
+                            <h3 id="totalCost"></h3>
+                        </div>
+
+
+                        <div style="text-align: center" class="col-md-6">
+                            <h3 id="totalBill"></h3>
+                        </div>
+                        
+                        <div style="text-align: center" class="col-md-12">
+                            <h5 id="perPs">Per person</h5><br>
+                        </div>
+                    </div>
+                </div>
+                <!-- AddToAny BEGIN -->
+                <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                    <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                    <a class="a2a_button_facebook"></a>
+                    <a class="a2a_button_twitter"></a>
+                    <a class="a2a_button_google_plus"></a>
+                </div>
+                <script async src="https://static.addtoany.com/menu/page.js"></script>
+                <!-- AddToAny END -->
+</body>
+
+</html>
